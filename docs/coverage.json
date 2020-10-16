@@ -1,6 +1,6 @@
 {
-  "coverage": "7.37%",
-  "expectCount": 1247,
+  "coverage": "7.25%",
+  "expectCount": 1268,
   "actualCount": 92,
   "files": {
     "src/EventEmitter.js": {
@@ -476,19 +476,19 @@
         53,
         68,
         74,
-        82,
-        84,
-        94,
-        101,
-        105,
-        109,
-        113,
-        120,
-        130,
-        137,
-        170,
-        180,
-        184
+        83,
+        85,
+        95,
+        102,
+        106,
+        110,
+        114,
+        121,
+        131,
+        138,
+        171,
+        181,
+        185
       ]
     },
     "src/components/columns/Columns.form.js": {
@@ -600,6 +600,18 @@
         174
       ]
     },
+    "src/components/customphonenumber/PhoneNumber.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5,
+        13,
+        17,
+        31,
+        35
+      ]
+    },
     "src/components/datagrid/DataGrid.form.js": {
       "expectCount": 1,
       "actualCount": 0,
@@ -654,6 +666,27 @@
         252,
         262,
         270
+      ]
+    },
+    "src/components/dateInput/DateInput.js": {
+      "expectCount": 15,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        45,
+        107,
+        114,
+        118,
+        127,
+        131,
+        135,
+        142,
+        147,
+        152,
+        156,
+        167,
+        176
       ]
     },
     "src/components/datetime/DateTime.form.js": {

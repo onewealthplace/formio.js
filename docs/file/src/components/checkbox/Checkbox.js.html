@@ -54,9 +54,11 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Content">Content</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-currency">components/currency</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/currency/Currency.js~CurrencyComponent.html">CurrencyComponent</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Currency">Currency</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-customphonenumber">components/customphonenumber</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html">PhoneNumberComponent</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-datagrid">components/datagrid</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DataGrid">DataGrid</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-datamap">components/datamap</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/datamap/DataMap.js~DataMapComponent.html">DataMapComponent</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DataMap">DataMap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-dateinput">components/dateInput</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/dateInput/DateInput.js~DateTimeComponent.html">DateTimeComponent</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-datetime">components/datetime</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/datetime/DateTime.js~DateTimeComponent.html">DateTimeComponent</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DateTime">DateTime</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-day">components/day</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/day/Day.js~DayComponent.html">DayComponent</a></span></span></li>
@@ -247,6 +249,7 @@ export default class CheckBoxComponent extends Field {
     return super.render(this.renderTemplate(&apos;checkbox&apos;, {
       input: this.inputInfo,
       checked: this.checked,
+      displayValue: this.getValueAsString(),
       tooltip: this.interpolate(this.t(this.component.tooltip) || &apos;&apos;, { _userInput: true }).replace(/(?:\r\n|\r|\n)/g, &apos;&lt;br /&gt;&apos;)
     }));
   }
@@ -350,7 +353,7 @@ export default class CheckBoxComponent extends Field {
   }
 
   getValueAsString(value) {
-    return value ? &apos;Yes&apos; : &apos;No&apos;;
+    return value ? &apos;Oui&apos; : &apos;Non&apos;;
   }
 
   updateValue(value, flags) {

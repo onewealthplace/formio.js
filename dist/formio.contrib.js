@@ -990,7 +990,7 @@ eval("Object.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nex
   \******************************************************/
 /***/ (function(__unused_webpack_module, exports) {
 
-eval("Object.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default=function(ctx) {\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\n__p += '<label class=\"' +\n((__t = (ctx.input.labelClass)) == null ? '' : __t) +\n'\">\\n    ' +\n((__t = (ctx.input.content)) == null ? '' : __t) +\n'\\n    ';\n if (!ctx.self.labelIsHidden()) { ;\n__p += '<span>' +\n((__t = (ctx.input.label)) == null ? '' : __t) +\n'</span>';\n } ;\n__p += '\\n</label>\\n<div ref=\"value\">';\n if (ctx.checked) { ;\n__p += 'True';\n } else { ;\n__p += 'False';\n } ;\n__p += '</div>\\n';\nreturn __p\n}\n\n//# sourceURL=webpack://Formio/./lib/templates/bootstrap/checkbox/html.ejs.js?");
+eval("Object.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default=function(ctx) {\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\n__p += '<label class=\"' +\n((__t = (ctx.input.labelClass)) == null ? '' : __t) +\n'\">\\n    ' +\n((__t = (ctx.input.content)) == null ? '' : __t) +\n'\\n    ';\n if (!ctx.self.labelIsHidden()) { ;\n__p += '<span>' +\n((__t = (ctx.input.label)) == null ? '' : __t) +\n'</span>';\n } ;\n__p += '\\n</label>\\n<div ref=\"value\">';\n if (ctx.displayValue) { ;\n__p +=\n((__t = (ctx.displayValue)) == null ? '' : __t);\n } else { ;\n__p += '-';\n } ;\n__p += '</div>\\n';\nreturn __p\n}\n\n//# sourceURL=webpack://Formio/./lib/templates/bootstrap/checkbox/html.ejs.js?");
 
 /***/ }),
 
@@ -1399,7 +1399,7 @@ eval("Object.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nex
   \***************************************************/
 /***/ (function(__unused_webpack_module, exports) {
 
-eval("Object.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default=function(ctx) {\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\n__p += '<div ref=\"value\">';\n if (ctx.value) { ;\n__p +=\n((__t = (ctx.value)) == null ? '' : __t);\n } else { ;\n__p += '-';\n } ;\n__p += '</div>\\n';\nreturn __p\n}\n\n//# sourceURL=webpack://Formio/./lib/templates/bootstrap/input/html.ejs.js?");
+eval("Object.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default=function(ctx) {\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\n__p += '<div ref=\"value\" class=\"htmlInputValue\">';\n if(ctx.prefix instanceof HTMLElement){ ;\n__p += '\\n    ' +\n((__t = ( ctx.t(ctx.prefix.outerHTML) )) == null ? '' : __t) +\n'\\n  ';\n } else{ ;\n__p += '\\n    ' +\n((__t = ( ctx.t(ctx.prefix) )) == null ? '' : __t) +\n'\\n  ';\n } ;\n\n if (ctx.input.attr.value) { ;\n__p +=\n((__t = (ctx.input.attr.value)) == null ? '' : __t);\n } else { ;\n__p += '-';\n } ;\n\n if(ctx.suffix instanceof HTMLElement){ ;\n__p += '\\n  ' +\n((__t = ( ctx.t(ctx.suffix.outerHTML) )) == null ? '' : __t) +\n'\\n';\n } else{ ;\n__p += '\\n  ' +\n((__t = ( ctx.t(ctx.suffix) )) == null ? '' : __t) +\n'\\n';\n } ;\n__p += '</div>\\n';\nreturn __p\n}\n\n//# sourceURL=webpack://Formio/./lib/templates/bootstrap/input/html.ejs.js?");
 
 /***/ }),
 

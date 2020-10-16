@@ -156,6 +156,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "formiojs/src/components/dateinput/dateinput.js~datetimecomponent",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html",
+    "<span>DateTimeComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/dateInput/DateInput.js</span>",
+    "class"
+  ],
+  [
     "formiojs/src/components/datetime/datetime.js~datetimecomponent",
     "class/src/components/datetime/DateTime.js~DateTimeComponent.html",
     "<span>DateTimeComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/datetime/DateTime.js</span>",
@@ -394,6 +400,12 @@ window.esdocSearchIndex = [
     "function/index.html#static-function-PhoneNumber",
     "<span>PhoneNumber</span> <span class=\"search-result-import-path\">formiojs/src/components/phonenumber/PhoneNumber.form.js</span>",
     "function"
+  ],
+  [
+    "formiojs/src/components/customphonenumber/phonenumber.js~phonenumbercomponent",
+    "class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html",
+    "<span>PhoneNumberComponent</span> <span class=\"search-result-import-path\">formiojs/src/components/customphonenumber/PhoneNumber.js</span>",
+    "class"
   ],
   [
     "formiojs/src/components/phonenumber/phonenumber.js~phonenumbercomponent",
@@ -3366,6 +3378,42 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/components/customphonenumber/phonenumber.js",
+    "file/src/components/customphonenumber/PhoneNumber.js.html",
+    "src/components/customphonenumber/PhoneNumber.js",
+    "file"
+  ],
+  [
+    "src/components/customphonenumber/phonenumber.js~phonenumbercomponent#datavalue",
+    "class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html#instance-set-dataValue",
+    "src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent#dataValue",
+    "member"
+  ],
+  [
+    "src/components/customphonenumber/phonenumber.js~phonenumbercomponent#datavalue",
+    "class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html#instance-get-dataValue",
+    "src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent#dataValue",
+    "member"
+  ],
+  [
+    "src/components/customphonenumber/phonenumber.js~phonenumbercomponent#defaultschema",
+    "class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html#instance-get-defaultSchema",
+    "src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent#defaultSchema",
+    "member"
+  ],
+  [
+    "src/components/customphonenumber/phonenumber.js~phonenumbercomponent#fmt",
+    "class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html#instance-method-fmt",
+    "src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent#fmt",
+    "method"
+  ],
+  [
+    "src/components/customphonenumber/phonenumber.js~phonenumbercomponent.schema",
+    "class/src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.html#static-method-schema",
+    "src/components/customphonenumber/PhoneNumber.js~PhoneNumberComponent.schema",
+    "method"
+  ],
+  [
     "src/components/datagrid/datagrid.form.js",
     "file/src/components/datagrid/DataGrid.form.js.html",
     "src/components/datagrid/DataGrid.form.js",
@@ -3712,6 +3760,96 @@ window.esdocSearchIndex = [
     "file/src/components/datamap/fixtures/index.js.html",
     "src/components/datamap/fixtures/index.js",
     "file"
+  ],
+  [
+    "src/components/dateinput/dateinput.js",
+    "file/src/components/dateInput/DateInput.js.html",
+    "src/components/dateInput/DateInput.js",
+    "file"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#checkvalidity",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-checkValidity",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#checkValidity",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#constructor",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-constructor-constructor",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#constructor",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#createwrapper",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-createWrapper",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#createWrapper",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#defaultschema",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-get-defaultSchema",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#defaultSchema",
+    "member"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#defaultvalue",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-get-defaultValue",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#defaultValue",
+    "member"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#emptyvalue",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-get-emptyValue",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#emptyValue",
+    "member"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#focus",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-focus",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#focus",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#formatvalue",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-formatValue",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#formatValue",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#getvalueasstring",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-getValueAsString",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#getValueAsString",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#isempty",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-isEmpty",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#isEmpty",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#isequal",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-isEqual",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#isEqual",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#momentformat",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-get-momentFormat",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#momentFormat",
+    "member"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent#performinputmapping",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#instance-method-performInputMapping",
+    "src/components/dateInput/DateInput.js~DateTimeComponent#performInputMapping",
+    "method"
+  ],
+  [
+    "src/components/dateinput/dateinput.js~datetimecomponent.schema",
+    "class/src/components/dateInput/DateInput.js~DateTimeComponent.html#static-method-schema",
+    "src/components/dateInput/DateInput.js~DateTimeComponent.schema",
+    "method"
   ],
   [
     "src/components/datetime/datetime.form.js",

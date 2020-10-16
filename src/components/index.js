@@ -9,6 +9,7 @@ import ContentComponent from './content/Content';
 import CurrencyComponent from './currency/Currency';
 import DataGridComponent from './datagrid/DataGrid';
 import DataMapComponent from './datamap/DataMap';
+import DateInputComponent from './dateInput/DateInput';
 import DateTimeComponent from './datetime/DateTime';
 import DayComponent from './day/Day';
 import EditGridComponent from './editgrid/EditGrid';
@@ -27,6 +28,7 @@ import NestedArrayComponent from './_classes/nestedarray/NestedArrayComponent';
 import NumberComponent from './number/Number';
 import PanelComponent from './panel/Panel';
 import PasswordComponent from './password/Password';
+import CustomPhoneNumberComponent from './customPhonenumber/PhoneNumber';
 import PhoneNumberComponent from './phonenumber/PhoneNumber';
 import RadioComponent from './radio/Radio';
 import ReCaptchaComponent from './recaptcha/ReCaptcha';
@@ -59,6 +61,7 @@ export default {
   currency: CurrencyComponent,
   datagrid: DataGridComponent,
   datamap: DataMapComponent,
+  dateInput: DateInputComponent,
   datetime: DateTimeComponent,
   day: DayComponent,
   editgrid: EditGridComponent,
@@ -78,6 +81,7 @@ export default {
   panel: PanelComponent,
   password: PasswordComponent,
   phoneNumber: PhoneNumberComponent,
+  customPhoneNumber: CustomPhoneNumberComponent,
   radio: RadioComponent,
   recaptcha: ReCaptchaComponent,
   resource: ResourceComponent,
