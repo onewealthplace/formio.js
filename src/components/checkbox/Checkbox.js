@@ -75,6 +75,7 @@ export default class CheckBoxComponent extends Field {
     return super.render(this.renderTemplate('checkbox', {
       input: this.inputInfo,
       checked: this.checked,
+      displayValue: this.getValueAsString(),
       tooltip: this.interpolate(this.t(this.component.tooltip) || '').replace(/(?:\r\n|\r|\n)/g, '<br />')
     }));
   }
@@ -178,6 +179,6 @@ export default class CheckBoxComponent extends Field {
   }
 
   getValueAsString(value) {
-    return value ? 'Yes' : 'No';
+    return value ? 'Oui' : 'Non';
   }
 }

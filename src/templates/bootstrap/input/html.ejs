@@ -1,1 +1,9 @@
-<div ref="value">{% if (ctx.value) { %}{{ctx.value}}{% } else { %}-{% } %}</div>
+<div ref="value" class="htmlInputValue">{% if(ctx.prefix instanceof HTMLElement){ %}
+    {{ ctx.t(ctx.prefix.outerHTML) }}
+  {% } else{ %}
+    {{ ctx.t(ctx.prefix) }}
+  {% } %}{% if (ctx.input.attr.value) { %}{{ctx.input.attr.value}}{% } else { %}-{% } %}{% if(ctx.suffix instanceof HTMLElement){ %}
+  {{ ctx.t(ctx.suffix.outerHTML) }}
+{% } else{ %}
+  {{ ctx.t(ctx.suffix) }}
+{% } %}</div>

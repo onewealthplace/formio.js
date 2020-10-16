@@ -11136,6 +11136,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/templates/bootstrap/dateinput/index.js",
+    "file/src/templates/bootstrap/dateInput/index.js.html",
+    "src/templates/bootstrap/dateInput/index.js",
+    "file"
+  ],
+  [
     "src/templates/bootstrap/day/index.js",
     "file/src/templates/bootstrap/day/index.js.html",
     "src/templates/bootstrap/day/index.js",
